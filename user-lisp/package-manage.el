@@ -11,8 +11,7 @@
 
 ;; packages I use
 (defvar user-packages
-  '(auto-complete
-    ac-inf-ruby
+  '(ac-inf-ruby
     async
     auto-compile
     coffee-mode
@@ -28,10 +27,14 @@
     multiple-cursors
     packed
     popup
+    projectile
     rinari
     rspec-mode
     ruby-compilation
     ruby-tools
+    ruby-end
+    ruby-block
+    rubocop
     rvm
     slim-mode))
 

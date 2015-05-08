@@ -22,3 +22,4 @@
 (require 'setup-helm)
 (require 'setup-coffee)
 (require 'setup-multiple-cursors)
+(require 'setup-markdown)

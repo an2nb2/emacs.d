@@ -6,6 +6,10 @@
     (if (member "DejaVu Sans Mono" (font-family-list))
         (set-face-attribute 'default nil :font "DejaVu Sans Mono-12")))
 
-; (require 'darcula-theme)
+(custom-set-variables
+ '(tool-bar-mode nil))
+
+
+(require 'darcula-theme)
 
 (provide 'prettiness)
