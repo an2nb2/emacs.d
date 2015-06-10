@@ -17,8 +17,8 @@
 (setq-default indent-tabs-mode nil)
 
 ;; setup tab width
-(setq tab-width 2
-      indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq-default indent-line-function 'insert-tab)
 
 ;; automatically delete trailing whitespace before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)

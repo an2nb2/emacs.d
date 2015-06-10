@@ -17,6 +17,7 @@
     coffee-mode
     darcula-theme
     egg
+    json-mode
     findr
     helm
     helm-git
@@ -25,6 +26,7 @@
     inflections
     jump
     multiple-cursors
+    neotree
     packed
     popup
     projectile

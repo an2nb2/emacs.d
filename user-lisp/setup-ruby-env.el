@@ -1,4 +1,5 @@
 (require 'rvm)
+(require 'ruby-mode)
 ;; (require 'rinari)
 
 ;; use rvm's default ruby for the current Emacs session
@@ -16,5 +17,7 @@
 (defadvice run-ruby (before rvm-switch-run-ruby)
   (rvm-activate-corresponding-ruby))
 (ad-activate 'run-ruby)
+
+ (setq ruby-deep-indent-paren '(?\[ ?\] t))
 
 (provide 'setup-ruby-env)

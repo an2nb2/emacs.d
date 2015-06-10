@@ -23,3 +23,4 @@
 (require 'setup-coffee)
 (require 'setup-multiple-cursors)
 (require 'setup-markdown)
+(require 'setup-json-mode)

@@ -1,6 +1,8 @@
 ;; prettiness.el
 ;; Visual settings and appearance tweaks
 
+(global-linum-mode t)
+
 ;; Set font
 (if window-system
     (if (member "DejaVu Sans Mono" (font-family-list))
@@ -9,7 +11,6 @@
 (custom-set-variables
  '(tool-bar-mode nil))
 
-
-(require 'darcula-theme)
+; (require 'darcula-theme)
 
 (provide 'prettiness)
