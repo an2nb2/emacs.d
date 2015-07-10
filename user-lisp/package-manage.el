@@ -26,7 +26,6 @@
     inflections
     jump
     multiple-cursors
-    neotree
     packed
     popup
     projectile
@@ -38,7 +37,9 @@
     ruby-block
     rubocop
     rvm
-    slim-mode))
+    slim-mode
+    sr-speedbar
+    yasnippet))
 
 ;; install any packages that aren't found
 (dolist (p user-packages)

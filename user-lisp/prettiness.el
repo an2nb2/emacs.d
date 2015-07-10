@@ -11,6 +11,7 @@
 (custom-set-variables
  '(tool-bar-mode nil))
 
+(require 'monokai-theme)
 ; (require 'darcula-theme)
 
 (provide 'prettiness)

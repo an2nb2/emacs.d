@@ -1,8 +1,12 @@
 ;; Custom keybinds
 
-(global-set-key (kbd "<C-up>") 'shrink-window)
-(global-set-key (kbd "<C-down>") 'enlarge-window)
-(global-set-key (kbd "<C-left>") 'shrink-window-horizontally)
-(global-set-key (kbd "<C-right>") 'enlarge-window-horizontally)
+(defun my-keybindings (my-key-map)
+  (define-key my-key-map (kbd "<C-up>") 'shrink-window)
+  (define-key my-key-map (kbd "<C-down>") 'enlarge-window)
+  (define-key my-key-map (kbd "<C-left>") 'shrink-window-horizontally)
+  (define-key my-key-map (kbd "<C-right>") 'enlarge-window-horizontally)
+  (define-key my-key-map (kbd "<f12>") 'sr-speedbar-toggle))
+
+(my-keybindings (current-global-map))
 
 (provide 'keybinds)
