@@ -25,6 +25,7 @@
     inf-ruby
     inflections
     jump
+    markdown-mode
     multiple-cursors
     packed
     popup
