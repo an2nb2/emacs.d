@@ -17,6 +17,7 @@
     coffee-mode
     darcula-theme
     egg
+    fill-column-indicator
     json-mode
     findr
     helm
@@ -40,6 +41,7 @@
     rvm
     slim-mode
     sr-speedbar
+    yaml-mode
     yasnippet))
 
 ;; install any packages that aren't found

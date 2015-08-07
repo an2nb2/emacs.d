@@ -25,3 +25,4 @@
 (require 'setup-markdown)
 (require 'setup-json-mode)
 (require 'setup-speedbar)
+(require 'setup-fill-column-indicator)

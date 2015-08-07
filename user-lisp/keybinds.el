@@ -5,7 +5,8 @@
   (define-key my-key-map (kbd "<C-S-down>") 'enlarge-window)
   (define-key my-key-map (kbd "<C-S-left>") 'shrink-window-horizontally)
   (define-key my-key-map (kbd "<C-S-right>") 'enlarge-window-horizontally)
-  (define-key my-key-map (kbd "<f12>") 'sr-speedbar-toggle))
+  (define-key my-key-map (kbd "<f12>") 'sr-speedbar-toggle)
+  (define-key my-key-map (kbd "<C-p>") 'projectile-find-file))
 
 (my-keybindings (current-global-map))
 
