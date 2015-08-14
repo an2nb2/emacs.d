@@ -2,6 +2,8 @@
 (require 'ruby-mode)
 ;; (require 'rinari)
 
+(add-hook 'after-init-hook 'inf-ruby-switch-setup)
+
 ;; use rvm's default ruby for the current Emacs session
 (rvm-use-default)
 

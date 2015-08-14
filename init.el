@@ -1,6 +1,9 @@
 ;; Disable splash screen
 (setq inhibit-startup-message t)
 
+;; Disable menu bar
+(menu-bar-mode -1)
+
 ;; put user-lisp directory on load-path
 (add-to-list 'load-path "~/.emacs.d/user-lisp")
 
@@ -25,4 +28,4 @@
 (require 'setup-markdown)
 (require 'setup-json-mode)
 (require 'setup-speedbar)
-(require 'setup-fill-column-indicator)
+(require 'setup-whitespace)
