@@ -1,4 +1,5 @@
 ;; Disable splash screen
+
 (setq inhibit-startup-message t)
 
 ;; Disable menu bar
@@ -15,6 +16,8 @@
 (require 'prettiness)
 ;; Key bindings
 (require 'keybinds)
+;; Custom functions
+(require 'defuns)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Mode specific congiguration ;;

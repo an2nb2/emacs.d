@@ -16,7 +16,6 @@
     auto-compile
     coffee-mode
     darcula-theme
-    egg
     fill-column-indicator
     json-mode
     findr
@@ -26,11 +25,13 @@
     inf-ruby
     inflections
     jump
+    magit
     markdown-mode
     multiple-cursors
     packed
     popup
     projectile
+    restclient
     rinari
     rspec-mode
     ruby-compilation
