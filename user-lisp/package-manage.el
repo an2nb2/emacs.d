@@ -17,7 +17,7 @@
     coffee-mode
     darcula-theme
     fill-column-indicator
-    jade
+    jade-mode
     json-mode
     findr
     helm
