@@ -5,7 +5,7 @@
 (add-hook 'after-init-hook 'inf-ruby-switch-setup)
 
 ;; use rvm's default ruby for the current Emacs session
-(rvm-use-default)
+; (rvm-use-default)
 
 ;; Auto RVM switcher (when start up inf-ruby, rails console, webserver)
 (defadvice rinari-web-server (before rvm-switch-rinari-web-server)

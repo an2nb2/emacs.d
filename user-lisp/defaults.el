@@ -30,6 +30,4 @@
 ;; highlight the current line
 (global-hl-line-mode)
 
-(setq shell-file-name "bash")
-
 (provide 'defaults)
