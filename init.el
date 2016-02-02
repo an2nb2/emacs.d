@@ -39,21 +39,3 @@
 (require 'setup-json-mode)
 (require 'setup-speedbar)
 (require 'setup-whitespace)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
- '(package-selected-packages
-   (quote
-    (restclient magit jade-mode yasnippet yaml-mode sr-speedbar slim-mode rvm ruby-tools ruby-guard ruby-end ruby-block rubocop rspec-mode rinari projectile multiple-cursors monokai-theme markdown-mode json-mode helm-git-files helm-git fill-column-indicator egg darcula-theme coffee-mode auto-compile ac-inf-ruby)))
- '(speedbar-show-unknown-files t)
- '(sr-speedbar-right-side nil)
- '(tool-bar-mode nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
