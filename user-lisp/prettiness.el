@@ -1,6 +1,11 @@
 ;; prettiness.el
 ;; Visual settings and appearance tweaks
 
+(require 'monokai-theme)
+(require 'powerline)
+
+(powerline-default-theme)
+
 (global-linum-mode t)
 
 ;; Set font
@@ -10,8 +15,5 @@
 
 (custom-set-variables
  '(tool-bar-mode nil))
-
-(require 'monokai-theme)
-; (require 'darcula-theme)
 
 (provide 'prettiness)

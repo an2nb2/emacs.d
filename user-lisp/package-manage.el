@@ -31,6 +31,7 @@
     multiple-cursors
     packed
     popup
+    powerline
     projectile
     restclient
     rinari
