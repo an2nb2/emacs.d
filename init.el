@@ -39,3 +39,4 @@
 (require 'setup-json-mode)
 (require 'setup-speedbar)
 (require 'setup-whitespace)
+(require 'setup-vr)

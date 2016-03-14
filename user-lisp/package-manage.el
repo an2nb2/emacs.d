@@ -43,6 +43,7 @@
     rvm
     slim-mode
     sr-speedbar
+    visual-regexp
     yaml-mode
     yasnippet))
 
