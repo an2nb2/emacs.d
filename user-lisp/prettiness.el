@@ -2,9 +2,10 @@
 ;; Visual settings and appearance tweaks
 
 (require 'monokai-theme)
-(require 'powerline)
+;; (require 'solarized-dark-theme)
+(require 'spaceline-config)
 
-(powerline-default-theme)
+(spaceline-emacs-theme)
 
 (global-linum-mode t)
 

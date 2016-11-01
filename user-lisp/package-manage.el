@@ -16,6 +16,9 @@
     auto-compile
     coffee-mode
     darcula-theme
+    elixir-mode
+    eshell-git-prompt
+    eshell-did-you-mean
     fill-column-indicator
     jade-mode
     json-mode
@@ -31,7 +34,6 @@
     multiple-cursors
     packed
     popup
-    powerline
     projectile
     restclient
     rinari
@@ -43,7 +45,10 @@
     rubocop
     rvm
     slim-mode
+    solarized-theme
+    spaceline
     sr-speedbar
+    string-inflection
     visual-regexp
     yaml-mode
     yasnippet))
