@@ -40,3 +40,4 @@
 (require 'setup-speedbar)
 (require 'setup-whitespace)
 (require 'setup-vr)
+(require 'setup-yasnippet)
