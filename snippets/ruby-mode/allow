@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: allow
+# group : rspec
+# --
+allow($1).to receive(:${0:process!})
