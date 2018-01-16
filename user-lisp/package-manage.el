@@ -12,25 +12,31 @@
 ;; packages I use
 (defvar user-packages
   '(ac-inf-ruby
+    alchemist
     async
     auto-compile
     coffee-mode
     darcula-theme
+    editorconfig
     elixir-mode
-    eshell-git-prompt
+    emojify
     eshell-did-you-mean
+    eshell-git-prompt
     fill-column-indicator
-    jade-mode
-    json-mode
     findr
+    haml-mode
     helm
     helm-git
     helm-git-files
     inf-ruby
     inflections
+    jade-mode
+    json-mode
     jump
+    leuven-theme
     magit
     markdown-mode
+    moe-theme
     multiple-cursors
     packed
     popup
@@ -38,17 +44,22 @@
     restclient
     rinari
     rspec-mode
-    ruby-compilation
-    ruby-tools
-    ruby-end
-    ruby-block
     rubocop
+    ruby-block
+    ruby-compilation
+    ruby-end
+    ruby-tools
     rvm
+    scss-mode
+    silkworm-theme
     slim-mode
     solarized-theme
     spaceline
     sr-speedbar
     string-inflection
+    tide
+    tss
+    typescript-mode
     visual-regexp
     yaml-mode
     yasnippet))

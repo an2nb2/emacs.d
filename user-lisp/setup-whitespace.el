@@ -7,5 +7,6 @@
 (add-hook 'coffee-mode-hook 'whitespace-mode)
 (add-hook 'json-mode-hook 'whitespace-mode)
 (add-hook 'slim-mode-hook 'whitespace-mode)
+(add-hook 'typescript-mode 'whitespace-mode)
 
 (provide 'setup-whitespace)
