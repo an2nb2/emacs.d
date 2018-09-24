@@ -1,6 +1,7 @@
 (require 'rvm)
 (require 'ruby-mode)
-;; (require 'rinari)
+
+(setq ruby-insert-encoding-magic-comment nil)
 
 (add-hook 'after-init-hook 'inf-ruby-switch-setup)
 

@@ -29,34 +29,19 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Mode specific congiguration ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(require 'setup-ido)
-(require 'setup-eshell)
-(require 'setup-ruby-env)
-(require 'setup-helm)
 (require 'setup-coffee)
-(require 'setup-multiple-cursors)
-(require 'setup-markdown)
-(require 'setup-json-mode)
-(require 'setup-speedbar)
-(require 'setup-whitespace)
-(require 'setup-vr)
-(require 'setup-yasnippet)
+(require 'setup-direx)
+(require 'setup-eshell)
+(require 'setup-helm)
+(require 'setup-ido)
 (require 'setup-jade)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
- '(custom-safe-themes
-   (quote
-    ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
- '(speedbar-show-unknown-files t)
- '(sr-speedbar-right-side nil)
- '(tool-bar-mode nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(require 'setup-javascript-env)
+(require 'setup-json-mode)
+(require 'setup-markdown)
+(require 'setup-multiple-cursors)
+(require 'setup-popwin)
+(require 'setup-rbenv)
+(require 'setup-ruby-env)
+(require 'setup-vr)
+(require 'setup-whitespace)
+(require 'setup-yasnippet)

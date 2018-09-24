@@ -17,11 +17,13 @@
     auto-compile
     coffee-mode
     darcula-theme
+    direx
     editorconfig
     elixir-mode
     emojify
     eshell-did-you-mean
     eshell-git-prompt
+    exec-path-from-shell
     fill-column-indicator
     findr
     haml-mode
@@ -39,23 +41,21 @@
     moe-theme
     multiple-cursors
     packed
-    popup
+    popwin
     projectile
+    rbenv
     restclient
-    rinari
     rspec-mode
     rubocop
     ruby-block
     ruby-compilation
     ruby-end
     ruby-tools
-    rvm
     scss-mode
     silkworm-theme
     slim-mode
     solarized-theme
     spaceline
-    sr-speedbar
     string-inflection
     tide
     tss
