@@ -30,6 +30,7 @@
     helm
     helm-git
     helm-git-files
+    helm-projectile
     inf-ruby
     inflections
     jade-mode
@@ -41,7 +42,6 @@
     moe-theme
     multiple-cursors
     packed
-    popwin
     projectile
     rbenv
     restclient
@@ -51,6 +51,7 @@
     ruby-compilation
     ruby-end
     ruby-tools
+    rust-mode
     scss-mode
     silkworm-theme
     slim-mode

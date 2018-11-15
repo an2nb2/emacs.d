@@ -21,10 +21,10 @@
 (require 'defaults)
 ;; Appearance and visual tweaks
 (require 'prettiness)
-;; Key bindings
-(require 'keybinds)
 ;; Custom functions
 (require 'defuns)
+;; Key bindings
+(require 'keybinds)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Mode specific congiguration ;;
@@ -39,7 +39,6 @@
 (require 'setup-json-mode)
 (require 'setup-markdown)
 (require 'setup-multiple-cursors)
-(require 'setup-popwin)
 (require 'setup-rbenv)
 (require 'setup-ruby-env)
 (require 'setup-vr)
