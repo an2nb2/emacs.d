@@ -32,7 +32,7 @@
 (require 'setup-coffee)
 (require 'setup-direx)
 (require 'setup-eshell)
-(require 'setup-helm)
+(require 'setup-ivy)
 (require 'setup-ido)
 (require 'setup-jade)
 (require 'setup-javascript-env)

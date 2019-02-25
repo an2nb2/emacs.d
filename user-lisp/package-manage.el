@@ -16,6 +16,7 @@
     async
     auto-compile
     coffee-mode
+    counsel-projectile
     darcula-theme
     direx
     editorconfig
@@ -27,10 +28,7 @@
     fill-column-indicator
     findr
     haml-mode
-    helm
-    helm-git
-    helm-git-files
-    helm-projectile
+    ivy
     inf-ruby
     inflections
     jade-mode
