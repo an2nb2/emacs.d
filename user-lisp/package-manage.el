@@ -11,7 +11,8 @@
 
 ;; packages I use
 (defvar user-packages
-  '(ac-inf-ruby
+  '(auto-complete
+    ac-inf-ruby
     ag
     alchemist
     async
@@ -34,7 +35,6 @@
     ivy
     inf-ruby
     inflections
-    jade-mode
     json-mode
     jump
     leuven-theme

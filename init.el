@@ -34,7 +34,6 @@
 (require 'setup-eshell)
 (require 'setup-ivy)
 (require 'setup-ido)
-(require 'setup-jade)
 (require 'setup-javascript-env)
 (require 'setup-json-mode)
 (require 'setup-markdown)

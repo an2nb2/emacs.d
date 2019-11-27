@@ -1,5 +1,0 @@
-(require 'jade-mode)
-
-(add-to-list 'auto-mode-alist '("\\.pug\\'" . jade-mode))
-
-(provide 'setup-jade)
