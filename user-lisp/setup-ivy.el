@@ -1,3 +1,4 @@
+(require 'avy)
 (require 'ivy)
 (require 'projectile)
 (require 'counsel)
@@ -7,6 +8,7 @@
 
 (global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "M-x") 'counsel-M-x)
+(global-set-key (kbd "C-'") 'avy-goto-char-2)
 
 (projectile-mode +1)
 (counsel-projectile-mode +1)

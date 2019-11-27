@@ -12,13 +12,16 @@
 ;; packages I use
 (defvar user-packages
   '(ac-inf-ruby
+    ag
     alchemist
     async
     auto-compile
+    avy
     coffee-mode
     counsel-projectile
     darcula-theme
     direx
+    dockerfile-mode
     editorconfig
     elixir-mode
     emojify
