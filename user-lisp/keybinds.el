@@ -14,8 +14,10 @@
 (my-keybindings (current-global-map))
 
 (when (eq system-type 'darwin) ;; mac specific settings
-  (setq mac-option-modifier 'alt)
+  (setq mac-option-key-is-meta nil)
+  (setq mac-command-key-is-meta t)
   (setq mac-command-modifier 'meta)
+  (setq mac-option-modifier nil)
   )
 
 (provide 'keybinds)
