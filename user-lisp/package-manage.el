@@ -31,6 +31,7 @@
     exec-path-from-shell
     fill-column-indicator
     findr
+    groovy-mode
     haml-mode
     ivy
     inf-ruby
