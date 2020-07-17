@@ -24,4 +24,6 @@
 ;; Enable autocomplete
 (add-hook 'ruby-mode-hook 'auto-complete-mode)
 
+;; TODO: Add https://github.com/dgutov/robe
+
 (provide 'setup-ruby-env)

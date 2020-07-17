@@ -43,3 +43,4 @@
 (require 'setup-vr)
 (require 'setup-whitespace)
 (require 'setup-yasnippet)
+(require 'setup-go)

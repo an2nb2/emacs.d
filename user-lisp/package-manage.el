@@ -31,6 +31,9 @@
     exec-path-from-shell
     fill-column-indicator
     findr
+    go-autocomplete
+    go-mode
+    gorepl-mode
     groovy-mode
     haml-mode
     ivy
