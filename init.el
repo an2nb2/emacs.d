@@ -44,3 +44,4 @@
 (require 'setup-whitespace)
 (require 'setup-yasnippet)
 (require 'setup-go)
+(require 'setup-groovy)
