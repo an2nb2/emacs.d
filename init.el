@@ -29,7 +29,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Mode specific congiguration ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(require 'setup-coffee)
 (require 'setup-direx)
 (require 'setup-eshell)
 (require 'setup-ivy)
