@@ -25,6 +25,7 @@
     dockerfile-mode
     editorconfig
     elixir-mode
+    elpy
     emojify
     eshell-did-you-mean
     eshell-git-prompt
@@ -39,6 +40,7 @@
     ivy
     inf-ruby
     inflections
+    jinja2-mode
     json-mode
     jump
     leuven-theme
@@ -48,11 +50,12 @@
     multiple-cursors
     packed
     projectile
+    pyvenv
     rbenv
+    rego-mode
     restclient
     rspec-mode
     rubocop
-    ruby-block
     ruby-compilation
     ruby-end
     ruby-tools
