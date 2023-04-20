@@ -1,6 +1,6 @@
 ;; Custom keybinds
 (require 'groovy-mode)
 
-(custom-set-variables '(groovy-indent-offset 4))
+(custom-set-variables '(groovy-indent-offset 2))
 
 (provide 'setup-groovy)
