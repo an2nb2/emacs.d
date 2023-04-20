@@ -1,10 +1,10 @@
 (require 'go-mode)
 
 ;; set env var
-(setenv "GOPATH" (concat (shell-command-to-string "echo -n $HOME") "/go"))
+; (setenv "GOPATH" (concat (shell-command-to-string "echo -n $HOME") "/go"))
 
 ;; add folder with go binaries to exec path
-(add-to-list 'exec-path (concat (shell-command-to-string "echo -n $HOME") "/go/bin"))
+; (add-to-list 'exec-path (concat (shell-command-to-string "echo -n $HOME") "/go/bin"))
 
 ;; setup hooks and keybindings
 (defun my-go-mode-hook ()
