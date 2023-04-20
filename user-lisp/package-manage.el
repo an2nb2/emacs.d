@@ -1,5 +1,9 @@
 (require 'package)
 
+(when (and (equal emacs-version "27.2")
+           (eql system-type 'darwin))
+  (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3"))
+
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
@@ -15,12 +19,14 @@
     ac-inf-ruby
     ag
     alchemist
+    ample-theme
     async
     auto-compile
     avy
     coffee-mode
     counsel-projectile
     darcula-theme
+    direnv
     direx
     dockerfile-mode
     editorconfig
@@ -44,8 +50,11 @@
     json-mode
     jump
     leuven-theme
+    lsp-jedi
+    lsp-mode
     magit
     markdown-mode
+    material-theme
     moe-theme
     multiple-cursors
     packed
@@ -66,10 +75,13 @@
     solarized-theme
     spaceline
     string-inflection
+    terraform-doc
+    terraform-mode
     tide
     tss
     typescript-mode
     visual-regexp
+    use-package
     yaml-mode
     yasnippet))
 

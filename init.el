@@ -37,3 +37,4 @@
 (require 'setup-go)
 (require 'setup-groovy)
 (require 'setup-elpy)
+(require 'setup-direnv)
