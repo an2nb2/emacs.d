@@ -43,9 +43,9 @@
     gorepl-mode
     groovy-mode
     haml-mode
-    ivy
     inf-ruby
     inflections
+    ivy
     jinja2-mode
     json-mode
     jump
@@ -80,8 +80,9 @@
     tide
     tss
     typescript-mode
-    visual-regexp
     use-package
+    visual-regexp
+    vterm
     yaml-mode
     yasnippet))
 
