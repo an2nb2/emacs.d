@@ -1,6 +1,4 @@
-(require 'elpy)
-(require 'lsp-jedi)
-(require 'use-package)
+(require 'eglot)
 
 (elpy-enable)
 (add-hook 'python-mode-hook
@@ -22,14 +20,11 @@
        (get-buffer-process (current-buffer))
        nil "_"))))
 
-(use-package lsp-jedi
-  :ensure t
+(use-package elpy
   :config
-  (with-eval-after-load "lsp-mode"
-    (add-to-list 'lsp-disabled-clients 'pyls)
-    (add-to-list 'lsp-enabled-clients 'jedi)))
+  (setq compile-command "python ."))
 
-(setq elpy-rpc-backend "jedi")
+(setq elpy-rpc-backend "eglot")
 
 (define-key global-map (kbd "C-c C-j") 'elpy-goto-definition)
 

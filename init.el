@@ -22,15 +22,12 @@
 ;; Mode specific congiguration ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'setup-direx)
-(require 'setup-eshell)
 (require 'setup-ivy)
 (require 'setup-ido)
 (require 'setup-javascript-env)
 (require 'setup-json-mode)
 (require 'setup-markdown)
 (require 'setup-multiple-cursors)
-(require 'setup-rbenv)
-(require 'setup-ruby-env)
 (require 'setup-vr)
 (require 'setup-whitespace)
 (require 'setup-yasnippet)
@@ -38,3 +35,5 @@
 (require 'setup-groovy)
 (require 'setup-elpy)
 (require 'setup-direnv)
+(require 'setup-eglot)
+(require 'setup-terraform)

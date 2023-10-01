@@ -9,7 +9,9 @@
   (define-key my-key-map (kbd "<M-down>") 'forward-paragraph)
   (define-key my-key-map (kbd "<M-up>") 'backward-paragraph)
   (define-key my-key-map (kbd "<M-backspace>") 'my-delete-backward-word)
-  (define-key my-key-map (kbd "<f4>") 'end-kbd-macro))
+  (define-key my-key-map (kbd "<f4>") 'end-kbd-macro)
+  (define-key my-key-map (kbd "<f5>") 'compile)
+  )
 
 (my-keybindings (current-global-map))
 

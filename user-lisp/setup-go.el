@@ -1,10 +1,5 @@
 (require 'go-mode)
-
-;; set env var
-; (setenv "GOPATH" (concat (shell-command-to-string "echo -n $HOME") "/go"))
-
-;; add folder with go binaries to exec path
-; (add-to-list 'exec-path (concat (shell-command-to-string "echo -n $HOME") "/go/bin"))
+(require 'eglot)
 
 ;; setup hooks and keybindings
 (defun my-go-mode-hook ()
@@ -15,15 +10,16 @@
   ;; Customize compile command to run go build
   (if (not (string-match "go" compile-command))
       (set (make-local-variable 'compile-command)
-           "go build -v && go test -v && go vet"))
-)
-(add-hook 'go-mode-hook 'my-go-mode-hook)
-(add-hook 'go-mode-hook #'gorepl-mode)
+           "go build -v && go test -v && go vet")))
 
 ;; hook autocomplete
 (defun auto-complete-for-go ()
   (auto-complete-mode 1))
+
+(add-hook 'go-mode-hook 'my-go-mode-hook)
+(add-hook 'go-mode-hook #'gorepl-mode)
 (add-hook 'go-mode-hook 'auto-complete-for-go)
+(add-hook 'go-mode-hook 'eglot-ensure)
 
 (with-eval-after-load 'go-mode
   (require 'go-autocomplete))

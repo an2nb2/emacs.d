@@ -16,25 +16,20 @@
 ;; packages I use
 (defvar user-packages
   '(auto-complete
-    ac-inf-ruby
     ag
     alchemist
-    ample-theme
     async
     auto-compile
     avy
-    coffee-mode
     counsel-projectile
-    darcula-theme
     direnv
     direx
     dockerfile-mode
     editorconfig
+    eglot
     elixir-mode
     elpy
     emojify
-    eshell-did-you-mean
-    eshell-git-prompt
     exec-path-from-shell
     fill-column-indicator
     findr
@@ -43,15 +38,12 @@
     gorepl-mode
     groovy-mode
     haml-mode
-    inf-ruby
     inflections
     ivy
     jinja2-mode
     json-mode
     jump
     leuven-theme
-    lsp-jedi
-    lsp-mode
     magit
     markdown-mode
     material-theme
@@ -60,14 +52,10 @@
     packed
     projectile
     pyvenv
-    rbenv
     rego-mode
     restclient
     rspec-mode
     rubocop
-    ruby-compilation
-    ruby-end
-    ruby-tools
     rust-mode
     scss-mode
     silkworm-theme
