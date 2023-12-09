@@ -50,6 +50,7 @@
     moe-theme
     multiple-cursors
     packed
+    pinentry
     projectile
     pyvenv
     rego-mode

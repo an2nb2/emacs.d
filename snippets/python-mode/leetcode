@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: leetcode
+# key: leetcode
+# --
+#!/usr/bin/env python3
+"""
+Solution to leetcode problem.
+"""
+
+from functools import cache
+from typing import *
+import unittest
+
+
+class Solution:
+    def ${1:function}(self, ${2:args}) -> ${3:return}:
+        pass$0
+
+
+class TestSolutions(unittest.TestCase):
+    def test_$1(self):
+        s = Solution()
+        self.assertEqual(s.$1(), "")
+
+
+if __name__ == '__main__':
+    unittest.main()

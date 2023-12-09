@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: advent
+# key: advent
+# --
+#!/usr/bin/env python3
+"""
+Solution to day ${1:day}.
+"""
+
+from functools import cache
+from typing import *
+from re import sub, search
+
+class Solution:
+    def part1(self):
+        with open('./input.txt', 'r') as f:
+            pass
+        return
+
+    def part2(self):
+        with open('./input.txt', 'r') as f:
+            pass
+        return
+
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.part1())
+    print(s.part2())
