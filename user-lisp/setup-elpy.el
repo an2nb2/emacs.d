@@ -25,6 +25,7 @@
   (setq compile-command "python ."))
 
 (setq elpy-rpc-backend "eglot")
+(add-to-list 'eglot-server-programs '(python-mode . ("pyright-langserver" "--stdio")))
 
 (define-key global-map (kbd "C-c C-j") 'elpy-goto-definition)
 

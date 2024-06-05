@@ -13,14 +13,16 @@ from re import sub, search
 
 class Solution:
     def part1(self):
+        result = 0
         with open('./input.txt', 'r') as f:
             pass
-        return
+        return result
 
     def part2(self):
+        result = 0
         with open('./input.txt', 'r') as f:
             pass
-        return
+        return result
 
 
 if __name__ == '__main__':
