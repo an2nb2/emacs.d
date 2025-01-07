@@ -23,7 +23,7 @@
 (spaceline-emacs-theme)
 
 ;; Enable line numbers
-(global-linum-mode t)
+(global-display-line-numbers-mode 1)
 
 ;; Font
 (set-face-attribute 'default nil :height 150)

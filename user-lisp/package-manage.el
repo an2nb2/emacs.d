@@ -33,6 +33,7 @@
     exec-path-from-shell
     fill-column-indicator
     findr
+    flycheck-eglot
     go-autocomplete
     go-mode
     gorepl-mode

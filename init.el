@@ -37,3 +37,4 @@
 (require 'setup-direnv)
 (require 'setup-eglot)
 (require 'setup-terraform)
+(require 'open-in-github)
