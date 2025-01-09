@@ -21,3 +21,8 @@ tutorial/
 emojis/
 projectile.cache
 transient/
+.auth/
+.cache/
+projects
+.lsp-*
+elpy/

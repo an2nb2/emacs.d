@@ -37,6 +37,7 @@
     go-autocomplete
     go-mode
     gorepl-mode
+    gptel
     groovy-mode
     haml-mode
     inflections

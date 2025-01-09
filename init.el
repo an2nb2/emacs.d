@@ -38,3 +38,4 @@
 (require 'setup-eglot)
 (require 'setup-terraform)
 (require 'open-in-github)
+(require 'setup-gptel)
