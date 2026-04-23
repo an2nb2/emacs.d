@@ -7,6 +7,10 @@
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
 
+(add-to-list 'package-archives
+             (cons "nongnu" (format "http%s://elpa.nongnu.org/nongnu/"
+                                    (if (gnutls-available-p) "s" ""))))
+
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
@@ -16,6 +20,7 @@
 ;; packages I use
 (defvar user-packages
   '(auto-complete
+
     ag
     alchemist
     async
@@ -30,6 +35,7 @@
     elixir-mode
     elpy
     emojify
+    evil
     exec-path-from-shell
     fill-column-indicator
     findr
@@ -40,6 +46,7 @@
     gptel
     groovy-mode
     haml-mode
+    highlight-indent-guides
     inflections
     ivy
     jinja2-mode
@@ -51,7 +58,6 @@
     material-theme
     moe-theme
     multiple-cursors
-    packed
     pinentry
     projectile
     pyvenv
