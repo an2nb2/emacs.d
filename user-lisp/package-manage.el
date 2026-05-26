@@ -36,6 +36,7 @@
     elpy
     emojify
     evil
+    evil-collection
     exec-path-from-shell
     fill-column-indicator
     findr
